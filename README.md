@@ -34,7 +34,8 @@ conda activate flask # activate the new environment
 After creating a python environment, you can run the test project:
 
 ```
-python app.py
+$ export FLASK_APP=microblog.py
+$ flask run
 ```
 
 ## Running the tests
@@ -53,7 +54,8 @@ Just the leopard.
 ### Acknowledgments
 
 Based on some flask tutorials:
- * [Tutorial 1](https://tutorialone.html)
+ * [Tutorial 1](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world)
+ 
 
 
 ## Licenses
