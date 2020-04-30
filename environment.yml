@@ -1,0 +1,13 @@
+# To create the conda environment:
+# > conda env create --file environment.yml
+# To activate this conda environment:
+# > conda activate flask
+name: flask
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.7
+  - pillow
+  - flask
+  - sqlalchemy
