@@ -39,6 +39,7 @@ $ flask run
 ```
 
 The app will be running at the local host:  `http://localhost:5000/`
+
 ## Running the tests
 
 The tests for this system are written using `pytest` and are stored in the folder called `tests`.

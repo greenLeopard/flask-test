@@ -9,6 +9,8 @@ channels:
 dependencies:
   - python=3.7
   - pillow
-  - flask
   - sqlalchemy
   - python-dotenv
+  - werkzeug=0.16.1 # use older version for flask-wtf
+  - flask
+  - flask-wtf
