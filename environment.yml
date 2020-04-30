@@ -11,3 +11,4 @@ dependencies:
   - pillow
   - flask
   - sqlalchemy
+  - python-dotenv
